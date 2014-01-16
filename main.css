@@ -1,0 +1,120 @@
+/*
+	BASIC FORMATTING
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	margin: 50px auto;
+	height: 100px;
+}
+
+/*
+	1) SIMPLE BUTTON
+*/
+
+.simple-button {
+	margin: 50px auto;
+	width: 200px;
+	height: 150px;
+	background-color: green;
+	border-radius: 6px;
+	box-shadow: inset 0 -6px 0 rgb(5, 96, 21);
+	-webkit-transition: all 0.1s ease;
+}
+
+.simple-button:hover {
+	margin-top: 53px;
+	height: 147px;
+	box-shadow: inset 0 -3px 0 rgb(5, 96, 21);
+}
+
+.simple-button:active {
+	margin-top: 53px;
+	height: 147px;
+	box-shadow: inset 0 3px 0 rgb(5, 96, 21);
+}
+
+/*
+	2) SQUARE TO CIRCLE
+*/
+
+.square-to-circle {
+	margin: 50px auto;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(5, 96, 21);
+	-webkit-transition: all 0.3s ease;
+
+}
+
+.square-to-circle:hover {
+	border-radius: 200px;
+	background-color: rgb(5, 160, 21);
+	-webkit-transform: rotate(60deg);
+}
+
+/*
+	3) DRAWER DOWN
+*/
+.drawer-down {
+	margin: 50px auto;
+	width: 200px;
+	height: 6px;
+	background-color: green;
+	border-radius: 6px;
+	box-shadow: inset 0 -6px 0 rgb(5, 96, 21);
+	-webkit-transition: .5s all ease;
+}
+
+.drawer-down:hover {
+	margin: 50px auto;
+	width: 200px;
+	height: 80px;
+	background-color: green;
+	border-radius: 6px;
+	box-shadow: inset 0 -6px 0 rgb(5, 96, 21);
+}
+
+/*
+	4) ROTATE ON CLICK
+*/
+
+.rotate-on-click {
+	margin: 50px auto;
+	width: 200px;
+	height: 150px;
+	background-color: green;
+	border-radius: 6px;
+	box-shadow: inset 0 -6px 0 rgb(5, 96, 21);
+	-webkit-transition: .2s all ease;
+}
+
+.rotate-on-click:active {
+	margin: 50px auto;
+	width: 200px;
+	height: 150px;
+	background-color: rgb(164, 10, 164);
+	border-radius: 6px;
+	box-shadow: inset 0 -6px 0 rgb(220, 10, 164);
+	-webkit-transform: rotate(360deg);
+}
+
+/*
+	5) THICKEN BORDER
+*/
+
+
+
+
+
+
+
+
+
+
+
+
