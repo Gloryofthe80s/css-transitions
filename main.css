@@ -90,7 +90,7 @@ body {
 	background-color: green;
 	border-radius: 6px;
 	box-shadow: inset 0 -6px 0 rgb(5, 96, 21);
-	-webkit-transition: .2s all ease;
+	-webkit-transition: 1s all ease;
 }
 
 .rotate-on-click:active {
@@ -200,7 +200,135 @@ body {
 	height: 40px;
 }
 
+/*
+	9) BORDER MADNESS
+*/
 
+.border-madness {
+	margin: 50px auto;
+	width: 200px;
+	height: 200px;
+	background-color: purple;
+	border-radius: 6px;
+	-webkit-transition: border .5s ease,
+						width .5s ease,
+						height .5s ease;
+}
+
+.border-madness:hover {
+	border: 100px dashed maroon;
+	width: 0;
+	height: 0;
+}
+
+/*
+	10) INPUT FORM SWITCH
+*/
+
+.form-switch {
+	display: block;
+	margin: 50px auto;
+	width: 100px;
+	height: 20px;
+	background-color: gray;
+	-webkit-transition: all .2s ease;
+}
+
+.form-switch:focus {
+	background-color: white;
+	width: 200px;
+}
+
+/*
+	11) FONT COLOR 
+*/
+
+.font-color-change {
+	margin: 50px auto;
+	width: 200px;
+	height: 150px;
+	background-color: green;
+	border-radius: 6px;
+	color: black;
+	text-align: center;
+	box-shadow: inset 0 -6px 0 rgb(5, 96, 21);
+	-webkit-transition: color .5s ease;
+}
+
+.font-color-change:hover {
+	color: blue;
+}
+
+/*
+	12) TEXT REVEAL BOX
+*/
+
+.text-reveal-box {
+	margin: 50px auto;
+	width: 10px;
+	height: 100px;
+	font-size: 1px;
+	background-color: gray;
+	-webkit-transition: width 1s ease,
+						font-size 1s ease;
+}
+
+.text-reveal-box:hover {
+	width: 400px;
+	font-size: 14px;
+}
+
+/*
+	13) SKEWED!
+*/
+
+.skew-box {
+	margin: 50px auto;
+	width: 200px;
+	height: 150px;
+	background-color: green;
+	border-radius: 6px;
+	box-shadow: inset 0 -6px 0 rgb(5, 96, 21);
+	-webkit-transform: matrix(1, -0.2, 0, 1, 0, 0);
+}
+
+/*
+	14) CIRCLE EXPAND
+*/
+
+.circle-expand {
+	margin: 50px auto;
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	border-radius: 50px;
+	border: 1px dotted green;
+	-webkit-transition: all 1s ease;
+}
+
+.circle-expand:hover {
+	width: 200px;
+}
+
+/*
+	15) CIRCLE EXPAND DELAY
+*/
+
+.circle-expand-delay {
+	margin: 50px auto;
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	border-radius: 50px;
+	border: 1px dotted green;
+	-webkit-transition: width 1s ease,
+						height 1s 1s ease;
+}
+
+.circle-expand-delay:hover {
+	width: 200px;
+	height: 200px;
+}
 
 
 
